@@ -1,0 +1,14 @@
+.vs
+bin
+obj
+logs
+packages
+!packages/repositories.config
+*.user
+*.suo
+TestResults
+
+/_ReSharper.Cirrostratus
+Sonderbauwerke.Web/wkhtmltopdf/gen/
+site.css
+pdf.css
