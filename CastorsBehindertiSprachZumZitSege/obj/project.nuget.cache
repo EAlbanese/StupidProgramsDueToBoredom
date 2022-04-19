@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TQM+fyLWqD5mIqRC8henkB3OqOwLPoOG3jX3YktpwXcNCQD6cU7NqZTVmfQkJbslvp3O+KpQaYVVrjIhNQq44w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\severin.senn\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0-preview.3.22175.4\\microsoft.win32.systemevents.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.drawing.common\\7.0.0-preview.3.22175.4\\system.drawing.common.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.security.permissions\\7.0.0-preview.3.22175.4\\system.security.permissions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.windows.extensions\\7.0.0-preview.3.22175.4\\system.windows.extensions.7.0.0-preview.3.22175.4.nupkg.sha512"
+  ],
+  "logs": []
+}

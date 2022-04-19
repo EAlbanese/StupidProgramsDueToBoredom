@@ -1,0 +1,140 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CastorsBehindertiSprachZumZitSege/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0-preview.3.22175.4",
+          "System.Security.Permissions": "7.0.0-preview.3.22175.4",
+          "System.Windows.Forms": "4.0.0.0"
+        },
+        "runtime": {
+          "CastorsBehindertiSprachZumZitSege.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0-preview.3.22175.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "System.Security.Permissions/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "System.Windows.Extensions": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "System.Windows.Extensions/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "System.Windows.Forms/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.3056.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CastorsBehindertiSprachZumZitSege/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W5faGXqAfIibjI4bj5lfRRbxSIMLQWiR0zVMMX61XnXJFZGUmPhFaEFdqvpO4elpHVg2+dj41/+Ss15AOW8PvA==",
+      "path": "microsoft.win32.systemevents/7.0.0-preview.3.22175.4",
+      "hashPath": "microsoft.win32.systemevents.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y0a1YcX7JbMw0EwREBlViPi/FFnK5HTN5mjtLLVlSaLoEXXhx2RJ+7ZcWbGmssk+g9aRiguVPFUas+vjSVHs0Q==",
+      "path": "system.drawing.common/7.0.0-preview.3.22175.4",
+      "hashPath": "system.drawing.common.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.Security.Permissions/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y2czPCBL8PFp9gwhEIxiR0eRdTCYO1Rcen0FxGdf0vj71/q1fOFdfq5hbydEdPL1DvEIjbsQTzf4adHpKgca1g==",
+      "path": "system.security.permissions/7.0.0-preview.3.22175.4",
+      "hashPath": "system.security.permissions.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.Windows.Extensions/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oQ/mU1WHq2aUhTPlfSQuLkNkuca95jddAbNFOAY0MGyX79uPWvqJcOUHwnCCOdVvyqe9dHW+WfEZS4MMGDycqw==",
+      "path": "system.windows.extensions/7.0.0-preview.3.22175.4",
+      "hashPath": "system.windows.extensions.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.Windows.Forms/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "WdG1QOmy9asJrrRe2t6rIvuNPWiC6QgM8bEawY9uVUdr4N2ijs506GYeygccDBikCc7dsqTgxkoCK2kqOVwftA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\severin.senn\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0-preview.3.22175.4\\microsoft.win32.systemevents.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.drawing.common\\7.0.0-preview.3.22175.4\\system.drawing.common.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.security.permissions\\7.0.0-preview.3.22175.4\\system.security.permissions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\system.windows.extensions\\7.0.0-preview.3.22175.4\\system.windows.extensions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.0\\microsoft.netcore.app.runtime.win-x86.6.0.0.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.0.nupkg.sha512",
+    "C:\\Users\\severin.senn\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x86.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
