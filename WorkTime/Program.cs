@@ -9,32 +9,65 @@ using System.Diagnostics;
 
 namespace WorkTime
 {
-    //public class User
-    //{
-    //    public string Username { get; set; }
-    //    public string Email { get; set; }
-    //    public string IP { get; set; }
-    //    public int ID { get; set; }
-    //}
     public class Program
     {
         static void Main(string[] args)
         {
+            int mittag = 1;
+            int feierabend = 2;
+            int beenden = 3;
+            bool workTime = true;
             DateTime dateTime = DateTime.Now;
             DateTime lunch = DateTime.Today.AddHours(12);
             DateTime workEndDay = DateTime.Today.AddHours(17);
 
-            Console.WriteLine("Die Aktuelle Zeit: " + dateTime.ToString("HH:mm:ss") + " Uhr");
-            Console.WriteLine();
-            if(DateTime.Now <= lunch)
+            while (workTime)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Du musst noch: " + (lunch - dateTime) + " Stunden arbeiten bis du essen kannst");
-            }
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Du musst noch: " + (workEndDay - dateTime) + " Stunden arbeiten bis du nach Hause gehen kannst");
-            Console.ForegroundColor = ConsoleColor.White;
+                Console.Clear();
+                Console.WriteLine("Hallo, du willst eine bestimmte Zeit wissen?");
+                Console.WriteLine();
+                Console.WriteLine("Es ist " + dateTime.ToString("HH:mm:ss") + " Uhr");
+                Console.WriteLine();
+                Console.WriteLine("1) Wie lange noch bis zum Mittag?");
+                Console.WriteLine("2) Wie lange noch bis zum Feierabend?");
+                Console.WriteLine("3) Programm beenden");
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.Write("Deine Eingabe: ");
+                string input = Console.ReadLine();
+                Console.Clear();
+                int inputInt = int.Parse(input);
 
+                if (inputInt == mittag)
+                {
+                    TimeSpan ts = lunch - dateTime;
+                    DateTime mittagTime = new DateTime() + ts;
+                    Console.WriteLine("Du musst noch: " + (mittagTime).ToString("HH:mm:ss") + " Stunden arbeiten bis du essen kannst");
+                    Console.WriteLine();
+                    Console.WriteLine("Enter drücken für Hauptmenü");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+                else if (inputInt == feierabend)
+                {
+                    TimeSpan ts = workEndDay - dateTime;
+                    DateTime feierabendTime = new DateTime() + ts;
+                    Console.WriteLine("Du musst noch: " + (feierabendTime).ToString("HH:mm:ss") + " Stunden arbeiten bis du nach Hause gehen kannst");
+                    Console.WriteLine();
+                    Console.WriteLine("Enter drücken für Hauptmenü");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+                else if (inputInt == beenden)
+                {
+                    workTime = false;
+                    Console.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Bitte wähle eine der oben genannten Nummern.");
+                }
+            }
 
         }
     }
