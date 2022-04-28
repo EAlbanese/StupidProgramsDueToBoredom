@@ -29,13 +29,11 @@ namespace WorkTime
             if(DateTime.Now <= lunch)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Du musst noch: " + (lunch - dateTime) + " Stunden arbeiten bis du essen kannst");
+                Console.WriteLine($"Du musst noch: {(lunch - dateTime):T} Stunden arbeiten bis du essen kannst");
             }
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Du musst noch: " + (workEndDay - dateTime) + " Stunden arbeiten bis du nach Hause gehen kannst");
+            Console.WriteLine($"Du musst noch: {(workEndDay - dateTime):T} Stunden arbeiten bis du nach Hause gehen kannst");
             Console.ForegroundColor = ConsoleColor.White;
-
-
         }
     }
 }

@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projekte\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj": {}
+    "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj": {}
   },
   "projects": {
-    "E:\\Projekte\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj": {
+    "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projekte\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
+        "projectUniqueName": "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
         "projectName": "CastorsBehindertiSprachZumZitSege",
-        "projectPath": "E:\\Projekte\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
-        "packagesPath": "C:\\Users\\elia.albanese\\.nuget\\packages\\",
-        "outputPath": "E:\\Projekte\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\obj\\",
+        "projectPath": "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\CastorsBehindertiSprachZumZitSege.csproj",
+        "packagesPath": "C:\\Users\\severin.senn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\severin.senn\\Documents\\GitHub\\StupidProgramsDueToBoredom\\CastorsBehindertiSprachZumZitSege\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\elia.albanese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\severin.senn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
