@@ -10,7 +10,7 @@ namespace Testing
     {
         public string Name { get; set; }
 
-        public string Gener { get; set; }
+        public string? Gener { get; set; }
 
         public object Clone()
         {
