@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartInfo", "SmartInfo\Smar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BildWirdisCmdZeichnetBroKpWarumdassötschmache", "BildWirdisCmdZeichnetBroKpWarumdassötschmache\BildWirdisCmdZeichnetBroKpWarumdassötschmache.csproj", "{3491856F-741D-4B08-812B-DC1B13301C09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WichtigiInfosApp", "WichtigiInfosApp\WichtigiInfosApp.csproj", "{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3491856F-741D-4B08-812B-DC1B13301C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3491856F-741D-4B08-812B-DC1B13301C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3491856F-741D-4B08-812B-DC1B13301C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

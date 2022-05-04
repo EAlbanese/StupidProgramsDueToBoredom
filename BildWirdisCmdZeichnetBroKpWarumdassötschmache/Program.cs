@@ -8,7 +8,7 @@ namespace BildWirdisCmdZeichnetBroKpWarumdassötschmache // Note: actual namespa
     {
         static void Main(string[] args)
         {
-            args = new string[] { @"C:\Users\severin.senn\Documents\GitHub\StupidProgramsDueToBoredom\BildWirdisCmdZeichnetBroKpWarumdassötschmache\TestBilder\test10.jpg" };
+            args = new string[] { @"E:\Projekte\StupidProgramsDueToBoredom\BildWirdisCmdZeichnetBroKpWarumdassötschmache\TestBilder\test3.jpg" };
             if (args.Length != 1 || args[0].Contains("help")) ConsoleInfoManger.PrintHelp();
 
             if (!File.Exists(args[0])) ConsoleInfoManger.FileNotExists();
