@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing.API", "Testing.API\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesttingBinaryAndLowLevelProgramming", "TesttingBinaryAndLowLevelProgramming\TesttingBinaryAndLowLevelProgramming.csproj", "{22033753-AD6C-4B8F-A2C6-89DE00026068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WichtigiInfosApp", "WichtigiInfosApp\WichtigiInfosApp.csproj", "{9D7481F0-5D0A-4B2F-B1A0-F9BF490DF6F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
