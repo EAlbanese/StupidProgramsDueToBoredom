@@ -16,5 +16,9 @@ namespace Testing
         {
             return MemberwiseClone();
         }
+
+        public override string ToString() {
+            return $"Name: {Name} Gender:{Gener}";
+        }
     }
 }

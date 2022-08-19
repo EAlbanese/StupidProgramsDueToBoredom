@@ -1,4 +1,5 @@
 ﻿using BildWirdisCmdZeichnetBroKpWarumdassötschmache.Manger;
+using OfficeOpenXml;
 using System;
 using System.Drawing;
 
@@ -8,7 +9,8 @@ namespace BildWirdisCmdZeichnetBroKpWarumdassötschmache // Note: actual namespa
     {
         static void Main(string[] args)
         {
-            args = new string[] { @"C:\Users\severin.senn\Documents\GitHub\StupidProgramsDueToBoredom\BildWirdisCmdZeichnetBroKpWarumdassötschmache\TestBilder\test10.jpg" };
+            ExcelPackage.LicenseContext = LicenseContext.Commercial;
+            args = new string[] { @"C:\Users\severin.senn\Documents\GitHub\StupidProgramsDueToBoredom\BildWirdisCmdZeichnetBroKpWarumdassötschmache\TestBilder\test44.jpg" };
             if (args.Length != 1 || args[0].Contains("help")) ConsoleInfoManger.PrintHelp();
 
             if (!File.Exists(args[0])) ConsoleInfoManger.FileNotExists();
@@ -18,6 +20,48 @@ namespace BildWirdisCmdZeichnetBroKpWarumdassötschmache // Note: actual namespa
 
 
             Console.Clear();
+            CreateExcelImage(args);
+            //DrawInConsole(args);
+
+
+        }
+
+        static void CreateExcelImage(string[] args)
+        {
+            var bitmap = new Bitmap(args[0]);
+
+            var excelSavePath = @"C:\Users\severin.senn\Documents\GitHub\StupidProgramsDueToBoredom\BildWirdisCmdZeichnetBroKpWarumdassötschmache\sample1.xlsx";
+            if (File.Exists(excelSavePath)) File.Delete(excelSavePath);
+
+            var package = new ExcelPackage(excelSavePath);
+            var worksheet = package.Workbook.Worksheets.Add(args[0].Split(Path.DirectorySeparatorChar).Last());
+            worksheet.DefaultColWidth = 2;
+
+            var allPixelsCount = bitmap.Height * bitmap.Width;
+            var pixelsMaped = 0;
+            //TODO IF Max Limit of excel 1,048,576 rows by 16,384 columns
+            //TODO Performce
+            Console.Write("Performing Mapping... ");
+            var progress = new ProgressBar();
+            for (int x = 0; x < bitmap.Width; x++)
+            {
+                for (int y = 0; y < bitmap.Height; y++)
+                {
+                    var color = bitmap.GetPixel(x, y);
+                    worksheet.Cells[y + 1, x + 1].Style.Fill.SetBackground(color);
+
+                    pixelsMaped++;
+                    progress.Report((double)pixelsMaped / allPixelsCount);
+                }
+
+            }
+
+            package.Save();
+            Console.WriteLine("Done.");
+        }
+
+        static void DrawInConsole(string[] args)
+        {
 
             Console.WindowWidth = Console.LargestWindowWidth;
             Console.WindowHeight = Console.LargestWindowHeight;
@@ -35,7 +79,7 @@ namespace BildWirdisCmdZeichnetBroKpWarumdassötschmache // Note: actual namespa
                 {
                     var color = bitmap.GetPixel(x * jupWidth, y * jupHeight);
                     var hexcolor = color.R.ToString("X2") + color.G.ToString("X2") + color.B.ToString("X2");
-                    var consoleColor = ClosestConsoleColor(color.R, color.G, color.B);
+                    var consoleColor = ConsoleManger.ClosestConsoleColor(color.R, color.G, color.B);
                     Console.ForegroundColor = consoleColor;
                     Console.BackgroundColor = consoleColor;
                     Console.Write(".");
@@ -45,26 +89,9 @@ namespace BildWirdisCmdZeichnetBroKpWarumdassötschmache // Note: actual namespa
         }
 
 
-        static ConsoleColor ClosestConsoleColor(byte r, byte g, byte b)
-        {
-            ConsoleColor ret = 0;
-            double rr = r, gg = g, bb = b, delta = double.MaxValue;
 
-            foreach (ConsoleColor cc in Enum.GetValues(typeof(ConsoleColor)))
-            {
-                var n = Enum.GetName(typeof(ConsoleColor), cc);
-                var c = System.Drawing.Color.FromName(n == "DarkYellow" ? "Orange" : n);
-                var t = Math.Pow(c.R - rr, 2.0) + Math.Pow(c.G - gg, 2.0) + Math.Pow(c.B - bb, 2.0);
-                if (t == 0.0)
-                    return cc;
-                if (t < delta)
-                {
-                    delta = t;
-                    ret = cc;
-                }
-            }
-            return ret;
-        }
+
+
 
 
 

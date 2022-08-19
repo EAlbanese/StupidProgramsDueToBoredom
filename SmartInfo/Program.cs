@@ -45,7 +45,7 @@ while (option)
     Console.WriteLine("2) Wetter für die ganzee Woche");
     Console.WriteLine("3) Wie lange noch bis zum Mittag?");
     Console.WriteLine("4) Wie lange noch bis zum Feierabend?");
-    Console.ForegroundColor= ConsoleColor.Red;
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("5) Programm beenden");
     Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine();
@@ -89,7 +89,7 @@ while (option)
         TimeSpan ts = workEndDay - dateTime;
         DateTime feierabendTime = new DateTime() + ts;
         Console.Write("Du musst noch: ");
-        Console.ForegroundColor= ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.Write((feierabendTime).ToString("HH:mm:ss"));
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine(" Stunden arbeiten bis du nach Hause gehen kannst");
