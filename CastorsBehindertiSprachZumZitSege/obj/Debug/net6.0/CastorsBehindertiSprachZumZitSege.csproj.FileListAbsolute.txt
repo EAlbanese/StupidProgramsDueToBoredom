@@ -27,7 +27,6 @@ C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\Casto
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\CastorsBehindertiSprachZumZitSege.deps.json
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\CastorsBehindertiSprachZumZitSege.runtimeconfig.json
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\CastorsBehindertiSprachZumZitSege.dll
-C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\ref\CastorsBehindertiSprachZumZitSege.dll
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\CastorsBehindertiSprachZumZitSege.pdb
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -48,3 +47,4 @@ C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\Casto
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\obj\Debug\net6.0\ref\CastorsBehindertiSprachZumZitSege.dll
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\obj\Debug\net6.0\CastorsBehindertiSprachZumZitSege.pdb
 C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\obj\Debug\net6.0\CastorsBehindertiSprachZumZitSege.genruntimeconfig.cache
+C:\Users\severin.senn.GEOCLOUD\Documents\GitHub\StupidProgramsDueToBoredom\CastorsBehindertiSprachZumZitSege\obj\Debug\net6.0\refint\CastorsBehindertiSprachZumZitSege.dll
