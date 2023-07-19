@@ -1,7 +1,21 @@
 ﻿using ChatGPT.Net;
+using TikTokFabricatedRedditStory;
 
-// ChatGPT Official API
-var bot = new ChatGpt("<API_KEY>");
+internal class Program
+{
+    private static async Task Main(string[] args)
+    {
+        Console.WriteLine("Pls Give a Subject:");
+        //var subject = Console.ReadLine();
+        var subject = "People who cut off their family, what did they to you?";
 
-var response = await bot.Ask("What is the weather like today?");
-Console.WriteLine(response);
+        var stroy = StoryGenerator.GetStory(subject).Result;
+        Console.WriteLine("Created Story");
+        var audioStream = StoryGenerator.AudioGenerator(stroy);
+        Console.WriteLine("Created Audio");
+
+
+
+        var backgroudnVideos = Directory.GetFiles(Path.Combine(Directory.GetCurrentDirectory(), "BackgroundVideo"));
+    }
+}

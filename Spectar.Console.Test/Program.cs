@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 
 
 var fruits = AnsiConsole.Prompt(
-    new SelectionPrompt<string>()
+    new MultiSelectionPrompt<string>()
         .Title("What are your [green]favorite fruits[/]?")
         .PageSize(10)
         .MoreChoicesText("[grey](Move up and down to reveal more fruits)[/]")
@@ -18,4 +18,4 @@ var fruits = AnsiConsole.Prompt(
             "Cherry", "Cloudberry", "Coconut",
         }));
 
-AnsiConsole.WriteLine(fruits);
+AnsiConsole.WriteLine(string.Join(",", fruits));

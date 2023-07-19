@@ -7,10 +7,10 @@ namespace Spectar.Console.Test
         [CommandOption("--debug")]
         public bool? Debug { get; set; }
 
-        [CommandArgument("-p <name>")]
-        public string? Name { get; set; }
+        //[CommandArgument("-p <name>")]
+        //public string? Name { get; set; }
 
-        [CommandArgument(0, "[name]")]
+        [CommandArgument(0, "[Password]")]
         public string? Password { get; set; }
 
     }
